@@ -48,7 +48,7 @@ body {
         
         
         String host="smtp.gmail.com",  port="587";
-            final String userName="jobgetset@gmail.com",password= "asdfghjkl1!", toAddress=request.getParameter("email");
+           final String userName="<YOURMAILHERE>",password= "<YOURPSSWORDHERE>", toAddress=request.getParameter("mail");
                     String subject = "Bingo ! your profile approved", message= "please login to continue";
                        
             
